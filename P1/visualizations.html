@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+	<title>CS4460 P1  - Alex Levine</title>
+</head>
+<body>
+	<h1>Single Bar</h1>
+		<svg width="400" height="400">
+			<rect
+				width="50" height ="250" fill="red" stroke="black" x="0" y="150"/>
+		</svg>
+	<h1>Bar Chart</h1>
+		<svg width="400" height="400">
+			<rect
+				width="50" height ="250" fill="green" stroke="black" x="0" y="250"/>
+			<rect
+				width="50" height ="225" fill="green" stroke="black" x="50" y="175"/>
+			<rect
+				width="50" height ="225" fill="green" stroke="black" x="100" y="175"/>
+			<rect
+				width="50" height ="300" fill="green" stroke="black" x="150" y="100"/>
+			<rect
+				width="50" height ="300" fill="green" stroke="black" x="200" y="100"/>
+			<rect
+				width="50" height ="225" fill="green" stroke="black" x="250" y="175"/>
+			<rect
+				width="50" height ="225" fill="green" stroke="black" x="300" y="175"/>
+			<rect
+				width="50" height ="150" fill="green" stroke="black" x="350" y="250"/>
+		</svg>
+	<h1>Line Chart</h1>
+		<svg width="400" height="400">
+			<polyline
+				fill="none"
+				stroke="black"
+				stroke-width="3"
+				points="
+					0,250
+					50,175
+					100,175,
+					150,100
+					200,100
+					250,175
+					300,175
+					350,250" />
+		</svg>
+
+	<h1>Pie Chart</h1>
+		<svg width="400" height="400">
+			<circle 
+				cx="200" cy="200" 
+				r="100" stroke="black"
+				fill="yellow"/>
+			<path d="M200,200 L200,100 A100,100 0 0,1 300,200 z"
+				style="fill:green;
+					stroke:black;
+					stroke-width: 1"/>
+
+		</svg>
+</body>
