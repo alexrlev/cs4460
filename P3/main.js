@@ -114,7 +114,7 @@ function start() {
                 .attr('class', 'barPt2');
         });
 
-    var colors = ['red', 'green', 'yellow', 'purple'];
+    var colors = ['Green', 'Purple', 'Red', 'Yellow'];
 
     var select = d3.select(graph)
         .append('select')
