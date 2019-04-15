@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>US Universities Data</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div style="border: 1px solid #000; padding-left: 30px; width: 970px; height: 100%; margin: 10px 0 0 10px;">
+        <table><tr><td><h2>University Data Visualization</h2></td>
+        <td style="padding-left: 30px;"><p style="font-size: 11px;">Alex Levine</p></td>
+        <td style="padding-left: 30px;"><p style="font-size: 11px;">CS4460 Endert: P5</p></td></tr>
+        </table>
+    </div>
+    <div id="main">
+        <svg width="1000" height="600" style="border: 1px solid #000;">
+            <g class='legend' transform="translate(850, 50)">
+                <g>
+                    <circle r="8" cy="4" style="fill: khaki;"/>
+                    <text x="14" dy="0.7em">Far West</text>
+                </g>
+                <g transform="translate(0, 40)">
+                    <circle r="8" cy="4" style="fill: orange;"/>
+                    <text x="14" dy="0.7em">Great Lakes</text>
+                </g>
+                <g transform="translate(0, 80)">
+                    <circle r="8" cy="4" style="fill: rosybrown;"/>
+                    <text x="14" dy="0.7em">Great Plains</text>
+                </g>
+                <g transform="translate(0, 120)">
+                    <circle r="8" cy="4" style="fill: hotpink;"/>
+                    <text x="14" dy="0.7em">New England</text>
+                </g>
+                <g transform="translate(0, 160)">
+                    <circle r="8" cy="4" style="fill: blueviolet;"/>
+                    <text x="14" dy="0.7em">Mid-Atlantic</text>
+                </g>
+                <g transform="translate(0, 200)">
+                    <circle r="8" cy="4" style="fill: lightskyblue;"/>
+                    <text x="14" dy="0.7em">Outlying Areas</text>
+                </g>
+                <g transform="translate(0, 240)">
+                    <circle r="8" cy="4" style="fill: teal;"/>
+                    <text x="14" dy="0.7em">Rocky Mountains</text>
+                </g>
+                <g transform="translate(0, 280)">
+                    <circle r="8" cy="4" style="fill: lightgreen;"/>
+                    <text x="14" dy="0.7em">Southeast</text>
+                </g>
+                <g transform="translate(0, 320)">
+                    <circle r="8" cy="4" style="fill: lightslategray;"/>
+                    <text x="14" dy="0.7em">Southwest</text>
+                </g>
+            </g>
+            <g transform="translate(830, 405)">
+                <line x1="0" y1="0" x2="140" y2="0" style="stroke: gray;"/>
+            </g>
+            <g class='legend' transform="translate(844, 430)">
+                <g>
+                    <rect width="15" height="15" y="-4" style="fill: white; border: solid black 1px;"/>
+                    <text x="25" dy="0.7em">Private University</text>
+                </g>
+                <g transform="translate(7, 40)">
+                    <circle r="8" cy="4" style="fill: white; border: solid black 1px;"/>
+                    <text x="14" dy="0.7em">Public University</text>
+                </g>
+            </g>
+        </svg>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="./js/d3-tip.js"></script>
+<script src="./js/main.js"></script>
+</html>
